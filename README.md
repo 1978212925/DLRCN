@@ -3,7 +3,7 @@ The raw code underlying our manuscript, which has been submitted to Nature Commu
 The code consists of five sections. 
 "Utils" includes feature extraction, feature selection and nomogram establishment. 
 It is worth nothing that adipose tissue features was saved as csv files, while IPN deep learning features can only be extracted in code, due to dimension problems.
-"runner" is used to train the deep learning model, including some necessary hyperparamete"rs.
+"runner" is used to train the deep learning model, including some necessary hyperparameters.
 "models" preserve the deep learning models needed in the experiment.
 The function of "image_preprocessing_toolkit", like its name, is to preprocess the image.
 The code in "evaluation_visualization" is used to do some simple tests during the training of model.
